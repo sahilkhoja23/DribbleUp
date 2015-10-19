@@ -32,6 +32,8 @@
     .single-feature-img { margin-top: 50px; text-align: center; }
     .single-feature-img-description p { padding: 0 20px; }
     
+    .single-feature-img-land {align-content: center}
+    
     .single-feature-no-bg { padding-bottom: 40px; }
     .single-feature-no-bg .single-feature-img-description { margin-top: 50px; text-align: center; }
     .single-feature-no-bg .single-feature-img { margin-top: 30px; }

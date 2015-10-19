@@ -49,10 +49,9 @@ img { max-width: 100% }
 .top-content .vp {
 	text-align: center;
     position: relative;
-    margin-top: -8em;
+    margin-top: -11em;
  
 }
-
 
 
 
@@ -148,10 +147,6 @@ img { max-width: 100% }
 .call-to-action-button {
 	margin-top: 40px;
 }
-form {
-  width: 450px;
-  margin: 17% auto;
-}
 
 
 .header {
@@ -216,6 +211,8 @@ input:focus {
   outline: 2px solid #FF813D;
   box-shadow: 0 0 2px #FF813D;
 }
+
+/*line graph*/
 
 
 /***** Footer *****/
