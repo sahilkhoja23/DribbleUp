@@ -32,25 +32,81 @@ img { max-width: 100% }
 
 /***** Top content *****/
 
+
 .top-content {
     margin: 0 auto;
     text-align: left;
-    color: #000;
+    background-color: #E8F7FF
 }
 
 .inner-bg {
-    padding: 80px 0;
+    padding: 4px 0;
+
 }
+
 
 .top-content .logo {
 	text-align: center;
+    z-index: 1;
+
 }
 
 .top-content .vp {
 	text-align: center;
     position: relative;
     margin-top: -11em;
+    z-index: 1;
+    color: black
  
+}
+
+.wrapper {
+    margin: 0 auto;
+    text-align: left;
+    background-color: #E8F7FF
+;
+}
+
+.wrapper{
+    padding: 0px 0;
+}
+
+
+.wrapper.logo {
+	text-align: center;
+    z-index: 1;
+
+}
+
+.wrapper .vp {
+	text-align: center;
+    position: relative;
+    margin-top: -5em;
+    z-index: 1;
+    color: black
+ 
+}
+
+.hero-play-btn
+{
+    height: 99px;
+    background: url('../img/play-btn.png') no-repeat center center;
+    display: block;
+    text-indent: -99999px;
+    margin: 3em auto 0;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    width: 99px;
+}
+
+.hero-play-btn:hover, .hero-play-btn:focus
+{
+    transform: translate(0, -15px);
+    -webkit-transform: translate(0, -15px);
+    -o-transform: translate(0, -15px);
+    -moz-transform: translate(0, -15px);
 }
 
 
@@ -102,22 +158,23 @@ img { max-width: 100% }
 }
 
 .single-feature-bg {
-	color: #fff;
+	color: #3EBAFF;
 }
 
 .single-feature-no-bg {
-	color: #888;
+	color: #fff;
+    background-color: #3EBAFF;
 }
 
 .single-feature-no-bg h2 {
-	color: #333;
+	color: #fff;
 }
 
 .single-feature-no-bg .single-feature-img-description {
 	text-align: left;
 }
 
-.single-feature-no-bg .single-feature-img-description strong { color: #333; }
+.single-feature-no-bg .single-feature-img-description strong { color: #fff; }
 
 
 /***** Call to action *****/
@@ -125,8 +182,9 @@ img { max-width: 100% }
 .call-to-action-container {
     margin: 0 auto;
     padding-bottom: 60px;
-    color: #888;
+    color: #fff;
     text-align: center;
+    background-image: url(../img/backgrounds/1.jpg)
 }
 
 .call-to-action-text {
@@ -221,6 +279,8 @@ footer {
 	padding: 30px 0;
 	background: #333;
 	text-align: center;
+    min-height: 100%;
+    margin: 0 auto -100em;
 }
 
 .footer-copyright {
