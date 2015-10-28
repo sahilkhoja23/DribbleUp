@@ -57,12 +57,27 @@
     </head>
 
     <body>
+        
+<!--
+        <script>
+        
+          $().ready(function() {
+                $('#wrapper').tubular({videoId: 'QZAEV3UhhOc'}); // where idOfYourVideo is the YouTube ID.
+        });
+        
+        </script>
+-->
 		
         <!-- Top content -->
         <div class="top-content">
             <div class="inner-bg">
                 <div class="container">
                     <div class="row">
+                            <div class="video">
+  <iframe style="position:absolute; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0px; overflow:hidden; z-index:-1;" src="https://www.youtube.com/embed/E87-BHlLD98?autoplay=1&controls=0&showinfo=0&loop=1" frameborder="0" allowfullscreen>
+  </iframe>
+</div>
+                            
                             <div class="col-sm-12 logo">
                                 <img src="assets/img/dribbleup-lockup.png" alt="">
                             </div>
@@ -74,13 +89,16 @@
                                 <input type="submit" class="button" id="submit" value="SIGN UP">
                               </div>
                             </form>
+<!--
                                 <div class="playbuttoncss">
                 <a href="http://www.youtube.com/v/O19G_85S0XI?title=0&amp;byline=0&amp;portrait=0&amp;color=1883ad&amp;autoplay=1" class="hero-play-btn various fancybox.iframe">Play Button</a> 
             </div>
+-->
                                 
                                 
                                 
                                 
+                            </div>
                             </div>
                         </div>
                     </div>   
@@ -180,7 +198,8 @@
 
         <!-- Javascript -->
         <!-- Add jQuery library -->
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="assets/js/jquery.tubular.1.0.1/js/jquery.tubular.1.0.js"></script> 
         <script src="assets/js/retina-1.1.0.min.js"></script>
         <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
 

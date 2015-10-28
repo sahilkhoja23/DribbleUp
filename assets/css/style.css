@@ -32,15 +32,28 @@ img { max-width: 100% }
 
 /***** Top content *****/
 
+.video {
+overflow: hidden;
+}
+
+.video-16x9 {
+    padding-bottom: 56.25%;
+}
+.video-4x3 {
+    padding-bottom: 75%;
+}
+
+
 
 .top-content {
     margin: 0 auto;
     text-align: left;
-    background-color: #E8F7FF
+/*    background-image: url(../img/still.jpg)*/
+    position: relative;
 }
 
 .inner-bg {
-    padding: 4px 0;
+    padding: 0px 0;
 
 }
 
@@ -56,15 +69,14 @@ img { max-width: 100% }
     position: relative;
     margin-top: -11em;
     z-index: 1;
-    color: black
+    color: white;
  
 }
 
 .wrapper {
-    margin: 0 auto;
-    text-align: left;
-    background-color: #E8F7FF
-;
+    text-align: center;
+    background-color: #121212;
+
 }
 
 .wrapper{
@@ -75,6 +87,7 @@ img { max-width: 100% }
 .wrapper.logo {
 	text-align: center;
     z-index: 1;
+    margin-left: 1em;
 
 }
 
@@ -83,7 +96,7 @@ img { max-width: 100% }
     position: relative;
     margin-top: -5em;
     z-index: 1;
-    color: black
+    color: white
  
 }
 
@@ -117,6 +130,7 @@ img { max-width: 100% }
 .single-feature-container {
     margin: 0 auto;
     text-align: center;
+    z-index: 1;
 }
 
 .single-feature-text {
@@ -159,15 +173,17 @@ img { max-width: 100% }
 
 .single-feature-bg {
 	color: #3EBAFF;
+    z-index: 1;
 }
 
 .single-feature-no-bg {
 	color: #fff;
     background-color: #3EBAFF;
+    z-index: 1;
 }
 
 .single-feature-no-bg h2 {
-	color: #fff;
+	color: #3EBAFF;
 }
 
 .single-feature-no-bg .single-feature-img-description {
